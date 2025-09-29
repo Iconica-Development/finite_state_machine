@@ -1,0 +1,9 @@
+include: package:flutter_iconica_analysis/analysis_options.yaml
+
+analyzer:
+  exclude:
+linter:
+  rules:
+
+formatter:
+  trailing_commas: preserve

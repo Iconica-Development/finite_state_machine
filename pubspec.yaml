@@ -1,0 +1,19 @@
+name: finite_state_machine
+description: A Dart package for managing a finite state machine.
+version: 0.1.0
+repository: https://github.com/Iconica-Development/finite_state_machine
+
+publish_to: https://forgejo.internal.iconica.nl/api/packages/internal/pub/
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  meta: ^1.16.0
+
+dev_dependencies:
+  test: ^1.24.0
+  flutter_iconica_analysis:
+    git:
+      url: https://github.com/Iconica-Development/flutter_iconica_analysis
+      ref: 7.0.0
